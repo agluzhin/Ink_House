@@ -1,0 +1,254 @@
+/* === Hero === */
+#hero {
+	display: flex;
+	gap: 30px;
+}
+
+.hero__content {
+	margin: 145px 0 144px 0;
+	display: flex;
+	flex-direction: column;
+}
+
+.hero__title {
+	font-size: 60px;
+	line-height: 110%;
+	color: var(--main-black-color);
+}
+
+.hero__title-span {
+	color: var(--main-green-color)
+}
+
+.hero__text {
+	margin: 20px 0 60px 0;
+
+	font-size: 18px;
+	line-height: 150%;
+	color: var(--main-grey-color);
+}
+
+.button-link {
+	padding: 20px 60px;
+	width: 225px;
+
+	font-size: 20px;
+	color: var(--main-green-color);
+
+	border: 1px solid var(--main-green-color);
+}
+
+.button-link:hover {
+	color: var(--main-white-color);
+	background: var(--main-green-color);
+}
+
+.button-link:focus {
+	color: var(--main-green-color);
+	background: var(--light-green-color);
+	border: 1px solid var(--main-green-color);
+}
+
+.button-link:active {
+	color: var(--default-white-color);
+	background: var(--dark-green-color);
+}
+
+/* === Reproduction === */
+#reprodaction {
+	padding: 70px 0 70px 0;
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+}
+
+.reprodaction__top {
+	display: flex;
+	justify-content: space-between;
+}
+
+.reproduction__title {
+	font-size: 40px;
+	line-height: 110%; 
+	color: var(--main-black-color);
+}
+
+.reproduction__buttons {
+	display: flex;
+	gap: 32px;
+}
+
+.reproduction__links {
+	padding: 10px 20px;
+	display: flex;
+	align-items: center;
+
+	border-radius: 20px;
+	color: var(--main-black-color);
+	background: var(--light-green-color);
+}
+
+.reproduction__links:hover {
+	color: var(--main-white-color);
+	background: var(--main-green-color);
+}
+
+.reproduction__links:focus {
+	border: 2px solid var(--main-green-color);
+	background: var(--light-green-color);
+}
+
+.reproduction__links:active {
+	color: var(--main-white-color);
+	background: var(--dark-green-color);
+}
+
+.reproduction__bottom {
+	display: flex;
+	gap: 30px;
+	flex-wrap: wrap;
+}
+
+.card {
+	padding: 20px 20px 30px 20px;
+	display: flex;
+	flex-direction: column;
+
+	background: var(--ultralight-green-color);
+}
+
+.card__author {
+	margin-top: 20px;
+
+	font-size: 18px;
+	color: var(--main-grey-color);
+}
+
+.card__name {
+	margin-top: 10px;
+
+	font-size: 30px;
+	color: var(--main-black-color);
+}
+
+.card__material {
+	margin-top: 8px;
+
+	font-size: 18px;
+	color: var(--main-black-color);
+}
+
+.card__price {
+	margin-top: 30px;
+
+	font-size: 24px;
+	color: var(--main-green-color);
+}
+
+.button-link_reproduction {
+	margin-top: 20px;
+	display: flex;
+	justify-content: center;
+
+	width: 310px;
+}
+
+/* === New === */
+#new {
+	padding: 70px;
+	display: flex;
+	flex-direction: column;
+
+	background-image: url('../images/main/new/background-image.png');
+	background-repeat: no-repeat;
+	object-fit: cover;
+}
+
+
+.new__top {
+	display: flex;
+	gap: 20px;
+	align-items: center;
+
+	z-index: 999;
+}
+
+.new__title {
+	font-size: 40px;
+	line-height: 100%;
+	color: var(--main-white-color);
+}
+
+.new__bottom {
+	margin-top: 20px;
+	display: flex;
+	flex-direction: column;
+}
+
+.new__text {
+	max-width: 540px;
+	font-size: 18px;
+	line-height: 150%;
+	color: var(--default-white-color);
+	text-align: left;
+}
+
+.new__button-link {
+	max-width: 257px;
+
+	margin-top: 60px;
+	padding: 20px 60px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	font-size: 20px;
+	color: var(--main-black-color);
+	background: var(--main-yellow-color);
+	border: none;
+}
+
+.new__button-link:hover {
+	background: var(--light-yellow-color);
+}
+
+.new__button-link:focus {
+	border: 1px solid var(--border-yellow-color);
+	background: var(--light-yellow-color);
+}
+
+.new__button-link:active {
+	background: var(--saturated-yellow-color);	
+}
+
+/* === About === */
+#about {
+	padding: 70px 0;
+	display: flex;
+	gap: 30px;
+}
+
+.about__content {
+	padding: 124px 0 44px 0;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+
+	color: var(--main-black-color);
+}
+
+.about__title {
+	font-size: 40px;
+	line-height: 110%;
+}
+
+.about__text {
+	font-size: 18px;
+	line-height: 150%;
+}
+
+.about__person {
+	display: flex;
+	gap: 30px;
+}
